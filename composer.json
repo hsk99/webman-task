@@ -1,0 +1,13 @@
+{
+	"name": "hsk99/webman-task",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"workerman/webman-framework": "^1.2.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Hsk99\\WebmanTask\\": "src"
+		}
+	}
+}
