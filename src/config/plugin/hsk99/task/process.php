@@ -3,7 +3,7 @@
 use Hsk99\WebmanTask\Server;
 
 return [
-    'task' => [
+    'server' => [
         'handler'     => Server::class,
         'count'       => config('plugin.hsk99.task.app.count'),
         'reloadable'  => config('plugin.hsk99.task.app.reloadable'),
